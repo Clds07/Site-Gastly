@@ -1,0 +1,31 @@
+.cartoes {
+  filter: brightness(30%);
+  /* opacity: 60%; */
+  color: #ffffff !important;
+  background-color: rgba(44, 28, 75, 1) !important;
+  border-color: rgba(44, 28, 75, 0) !important;
+
+  --b: 8px;     /* the border thickness*/
+  --g: 14px;    /* the gap */
+  --c: rgba(74, 47, 125, 1);
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: .3s;
+}
+
+.cartoes:hover {
+  filter: brightness(100%);
+  /* opacity: 100%; */
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+
+.cartoes + .cartoes {
+  border-radius: 50%;
+}
+
+.cartoesDados {
+  color: #ffffff !important;
+  background-color: rgba(44, 28, 75, 1) !important;
+  border-color: #ffffff !important;
+}

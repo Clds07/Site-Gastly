@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="./Images/Gastly vector (wout cloud).png" type="image/x-icon">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/mainpage.css">
+  <!-- <link rel="stylesheet" href="./CSS/dropdown.css"> -->
+  <link rel="stylesheet" href="./CSS/dropdown2.0.css">
+
+
+  <style>
+    a,
+    button,
+    input,
+    select,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      border: none;
+      text-decoration: none;
+      background: none;
+    }
+
+    menu,
+    ol,
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <title>Gastly</title>
+</head>
+
+<body>
+  <div class="default">
+    <img class="fumaca1" src="./Images/fumaça1.png" alt="fumaça fundo 01" />
+    <img class="fumaca2" src="./Images/fumaça2.png" alt="fumaça fundo 02" />
+    <img class="gif" src="./Images/Untitled-2.gif" alt="Pokemon Gastly" />
+    <div class="barraMenu">
+      <!-- <div class="dropdown">
+        <button class="dropbtn"><img class="iconeMenu" src="./Images/menu-10.png" alt="Botão Menu" /></button>
+        <div class="dropdown-content">
+          <a href="gastly.html">O Gastly</a>
+          <a href="arma.html">A Arma</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="somos.html">Quem Somos</a>
+        </div>
+      </div>  -->
+
+      <div class="menu-container">
+        <!-- <button class="menu-toggle" onclick="toggleMenu()">☰</button> -->
+        <button class="menu-toggle"><img class="iconeMenu" src="./Images/menu-10.png" alt="Botão Menu" /></button>
+
+        <div class="menu-items" id="menuItems">
+          <div class="menu-item-wrapper">
+            <a href="gastly.html">
+              <div class="menu-item">
+                <span class="menu-text">O "Gastly"</span>
+                <img class="menu-icon" src="./Images/Gastly vector (wout cloud).png" alt="Ícone Gastly">
+                <!-- <span class="menu-icon">👻</span> -->
+              </div>
+            </a>
+
+          </div>
+          <div class="menu-item-wrapper">
+            <a href="arma.html">
+              <div class="menu-item">
+                <span class="menu-text">A Arma</span>
+                <img class="menu-icon" src="./Images/iconeArma.png" alt="Ícone Arma">
+              </div>
+            </a>
+
+          </div>
+          <div class="menu-item-wrapper">
+            <a href="galeria.html">
+              <div class="menu-item">
+                <span class="menu-text">Galeria</span>
+                <img class="menu-icon" src="./Images/iconeGaleria.png" alt="Ícone Galeria">
+              </div>
+            </a>
+
+          </div>
+          <div class="menu-item-wrapper">
+            <a href="somos.html">
+              <div class="menu-item">
+                <span class="menu-text">A Equipe</span>
+                <img class="menu-icon-somos" src="./Images/iconeSomos.png" alt="Ícone Quem Somos">
+              </div>
+            </a>
+          </div>
+          <div class="menu-item-wrapper">
+            <a href="parcerias.html">
+              <div class="menu-item">
+                <span class="menu-text">Parcerias</span>
+                <img class="menu-icon" src="./Images/iconeParceria.png" alt="Ícone Parcerias">
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <a class="gs" href="index.html">GS</a>
+
+    </div>
+
+    <div class="sombraTitulo"></div>
+    <div class="gastly">GASTLY</div>
+    <div class="ghost-squadron">Ghost Squadron</div>
+    <div class="contatos">emaildogrupo@gmail.com.br | +55 11 12345-6789</div>
+
+
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("menuItems");
+      menu.classList.toggle("active");
+    }
+  </script>
+
+</body>
+
+</html>

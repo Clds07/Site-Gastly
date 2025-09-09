@@ -1,0 +1,135 @@
+body {
+  height: fit-content;
+  background-image:url(/Images/Bg\ 2.png) !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.default *{
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.default {
+  padding: 0px !important;
+}
+
+button{
+  cursor: pointer;
+}
+
+.iconeMenu {
+  width: 60px;
+  /* position: absolute; */
+  transform: scale(-1, 1);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+.iconeMenu:hover {
+  color: #464646;
+}
+
+.gs {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Marcellus", serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: absolute;
+  left: 20px;
+  width: 80px;
+  display: flex;
+}
+
+
+.texto {
+ backdrop-filter: blur(30px) drop-shadow(4px 4px 10px rgb(0, 0, 0));
+  color: #ffffff;
+  font-family: "Marcellus", serif;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  justify-self: center;
+}
+
+.titulo {
+  margin-top: 40px;
+  font-size: 8vmin;
+  justify-content: center;
+}
+
+.subtitulo {
+  margin-top: 30px;
+  font-size: 4vmin;
+  justify-content: center;
+}
+
+.frase {
+  margin: 5vmin 5vmin 0vmin 5vmin;
+  font-size: 3.5vmin;
+  text-align: center;
+}
+
+.fraseArma {
+  margin: 5vmin 5vmin 3vmin 5vmin;
+  font-size: 3.5vmin;
+  text-align: center;
+}
+
+.textoPrincipal {
+  margin: 3vmin 5vmin 5vmin 5vmin;
+  font-size: 3vmin;
+}
+
+.textoHardware {
+  margin: 3vmin 5vmin 5vmin 5vmin;
+  font-size: 3vmin;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contatos {
+  margin: 6vmin 0px 1vmin 0px;
+  font-size: 3vmin;
+  justify-content: center;
+}
+
+.seção {
+  margin: 0vmin 5vmin 3vmin 5vmin;
+  font-size: 6vmin;
+  text-align: center;
+  justify-content: center;
+}
+
+.video {
+  margin: 1.5vmin 5vmin 5vmin 0vmin;
+}
+
+.ftHard {
+  margin: 0vmin 5vmin 5vmin 0vmin;
+}
+
+.carousel {
+  width: 100vmin; 
+  justify-self: center; 
+  box-shadow: 10px 10px 10px rgba(31, 31, 31, 0.747);
+  margin: 0vmin 5vmin 0vmin 5vmin;
+}
+
+.menu-1 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 1391px;
+  top: 18px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 1);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
